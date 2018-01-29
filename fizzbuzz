@@ -1,0 +1,15 @@
+x=0
+x=x+1
+99.times do
+	x=x+1
+	if x%15 ==0
+		p "fizzbuzz"
+	else if x%3 == 0
+		p "fizz"
+	else if x%5 ==0
+		p "buzz"
+	else p x
+	end
+	end
+	end
+end
